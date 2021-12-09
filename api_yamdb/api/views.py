@@ -26,7 +26,7 @@ from .serializers import (CategorySerializer, CommentSerializer,
                           ReviewSerializer, TokenSerializer, UpdateSerializer,
                           UserSerializer)
 
-User = get_user_model()
+#User = get_user_model()
 
 
 class UserViewSet(viewsets.ModelViewSet):
